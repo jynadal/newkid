@@ -27,7 +27,7 @@ const NewGame = ({
           type="easy"
           onClick={() => onLevelSelect('easy')}
         >
-          Easy
+          Facile
         </LevelLink>
       </li>
 
@@ -36,7 +36,7 @@ const NewGame = ({
           type="medium"
           onClick={() => onLevelSelect('medium')}
         >
-          Medium
+          Moyen
         </LevelLink>
       </li>
 
@@ -45,7 +45,7 @@ const NewGame = ({
           type="hard"
           onClick={() => onLevelSelect('hard')}
         >
-          Hard
+          Dure
         </LevelLink>
       </li>
 
@@ -54,7 +54,7 @@ const NewGame = ({
           type="very-hard"
           onClick={() => onLevelSelect('very-hard')}
         >
-          Very hard
+          Expert
         </LevelLink>
       </li>
     </ul>

@@ -7,11 +7,11 @@ import {
 import Card from './Card.js'
 
 const CardStyled = styled(Card)`
-  width: 90px;
+  width: 150px;
   height: 130px;
   position: relative;
   perspective: 360px;
-  margin-bottom: 10px;
+  margin: 10px;
 
   .Card__element {
     display: block;
@@ -35,7 +35,8 @@ const CardStyled = styled(Card)`
     };
 
     img {
-      width: 50px;
+      width: 150px;
+  height: 130px;
     }
   }
 

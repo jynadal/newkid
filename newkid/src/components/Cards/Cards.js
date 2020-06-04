@@ -7,7 +7,7 @@ import {
 } from '../../components'
 
 const Cards = ({ cards, className, onClick }) => {
-  const chunkedCards = chunk(cards, 10)
+  const chunkedCards = chunk(cards, 5)
 
   return (
     <div className={className}>
