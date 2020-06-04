@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Card = ({ className, id, name, onClick }) => {
-  const image = require(`./images/${name}.svg`)
+  const image = require(`./images/${name}.png`)
 
   return image ? (
     <li className={className}>
