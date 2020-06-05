@@ -9,16 +9,21 @@ import { saveSettings } from '../utils/gameState.js'
 const getBoardSize = (level) => {
   switch (level) {
     case 'ease':
-      return 15
+      return 10
+      //15
     case 'medium':
-      return 30
+      return 15
+      //30
     case 'hard':
-      return 45
+      return 30
+      //45
     case 'very-hard':
-      return 60
+      return 45
+      //60
 
     default:
-      return 15
+      return 10
+      //15
   }
 }
 

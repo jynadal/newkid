@@ -8,13 +8,14 @@ const HeaderStyled = styled(Header)`
   left: 0;
   right: 0;
   width: 100%;
-  padding: 0 20px;
+  padding: 10px 40px;
   background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #111;
-  color: #fff;
+  background-color: #ff7f00;
+  color: #0080ff;
+  font-weight: bold;
   z-index: 10;
   box-shadow: 0 0 3px #000;
   

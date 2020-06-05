@@ -4,7 +4,7 @@ import { colors } from '../../styles/variables.js'
 import MainLayout from './MainLayout.js'
 
 const MainLayoutStyled = styled(MainLayout)`
-  background-color: ${colors.void};
+  backgroundImage= 'url("fond.jpg")';
   min-height: 100vh;
   display: flex;
   justify-content: center;
