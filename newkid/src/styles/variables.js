@@ -1,7 +1,7 @@
 // color palette
 
 const colors = {
-  void: '#000000',
+  void: '#31A2F2',
   gray: '#9D9D9D',
   white: '#FFFFFF',
   red: '#BE2633',
