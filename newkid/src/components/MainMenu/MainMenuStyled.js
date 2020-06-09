@@ -7,6 +7,7 @@ const MainMenuStyled = styled(MainMenu)`
   width: 100%;
   text-align: center;
   line-height: 2;
+  text-decoration: none;
   
   a {
     color: ${colors.white};
