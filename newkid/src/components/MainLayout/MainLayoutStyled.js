@@ -1,7 +1,7 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-import { colors } from '../../styles/variables.js'
-import MainLayout from './MainLayout.js'
+import { colors } from '../../styles/variables.js';
+import MainLayout from './MainLayout.js';
 
 const MainLayoutStyled = styled(MainLayout)`
   background-color: ${colors.void};
@@ -10,6 +10,6 @@ const MainLayoutStyled = styled(MainLayout)`
   justify-content: center;
   align-items: center;
   width: 100%;
-`
+`;
 
-export default MainLayoutStyled
+export default MainLayoutStyled;
