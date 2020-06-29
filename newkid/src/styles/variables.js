@@ -19,6 +19,10 @@ const colors = {
   cloudBlue: '#B2DCEF'
 }
 
+const backGroundImage= {
+  kidiFond: './bgimages/fond.jpg'
+}
+
 const transitions = {
   bezier: 'cubic-bezier(0.23, 1, 0.32, 1)'
 }

@@ -12,13 +12,13 @@ const EndGame = ({ className }) => {
       />
 
       <p className="youWonText">
-        Congratulations!<br />You won!
+        Felicitation!<br />Tu as gagné!
       </p>
 
       <br />
 
       <a href="/new-game" className="newGameLink">
-        Play again
+        Rejouer
       </a>
     </div>
   )

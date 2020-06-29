@@ -1,7 +1,8 @@
 import React from 'react'
 
 const LevelLink = ({ children, onClick, type }) => {
-  const levelImage = require(`./images/level-${type}.svg`)
+  //const levelImage = require(`./images/level-${type}.svg`)
+  const levelImage = require(`./img/level-${type}.png`)
 
   return (
     <a onClick={onClick} className="NewGame__link">
@@ -18,11 +19,11 @@ const NewGame = ({
 }) => (
   <div className={className}>
     <h1 className="NewGame__title">
-      Select level
+      Niveau de difficulté
     </h1>
 
     <ul>
-      <li>
+      <li >
         <LevelLink
           type="easy"
           onClick={() => onLevelSelect('easy')}
@@ -45,18 +46,10 @@ const NewGame = ({
           type="hard"
           onClick={() => onLevelSelect('hard')}
         >
-          Dure
+          Difficile
         </LevelLink>
       </li>
 
-      <li>
-        <LevelLink
-          type="very-hard"
-          onClick={() => onLevelSelect('very-hard')}
-        >
-          Expert
-        </LevelLink>
-      </li>
     </ul>
   </div>
 )

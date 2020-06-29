@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const logo = require('./images/logo.svg')
+const logoKid = require('./img/logoKid.png')
 
 const Header = ({ className }) => (
   <header className={className}>
@@ -9,14 +10,14 @@ const Header = ({ className }) => (
       <img
         alt="logo"
         className="Header__logoImage"
-        src={logo}
+        src={logoKid}
       />
 
-      Memory game
+    Memory Game
     </div>
 
     <NavLink to="/menu" className="backToMenuLink">
-      Back to main menu
+      Retour au menu principale
     </NavLink>
   </header>
 )

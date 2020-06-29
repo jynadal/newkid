@@ -5,10 +5,10 @@ const MainMenu = ({ className }) => (
   <div className={className}>
     <ul>
       <li>
-        <Link to="/game">Resume game</Link>
+        <Link to="/new-game">Nouveau jeu</Link>
       </li>
       <li>
-        <Link to="/new-game">New game</Link>
+        <Link to="/game">Reprendre le jeu</Link>
       </li>
     </ul>
   </div>

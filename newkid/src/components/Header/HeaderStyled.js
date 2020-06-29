@@ -16,8 +16,9 @@ const HeaderStyled = styled(Header)`
   background-color: #ff7f00;
   color: #0080ff;
   font-weight: bold;
+  font-size: 25px;
   z-index: 10;
-  box-shadow: 0 0 3px #000;
+  //box-shadow: 0 0 5px #000;
   
   .Header__logo {
     display: flex;
@@ -25,7 +26,7 @@ const HeaderStyled = styled(Header)`
   }
   
   .Header__logoImage {
-    width: 50px;
+    width: 200px;
     margin-right: 20px;
   }
   

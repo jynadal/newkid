@@ -46,7 +46,7 @@ const CardStyled = styled(Card)`
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: ${colors.nightBlue};
+    background-color: ${colors.grey};
     width: 100%;
     height: 100%;
     backface-visibility: hidden;

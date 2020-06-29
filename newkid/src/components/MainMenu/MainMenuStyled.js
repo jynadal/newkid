@@ -19,6 +19,11 @@ const MainMenuStyled = styled(MainMenu)`
     &:hover {
       color: ${colors.orange};
     }
+  
+  }
+  li {
+    text-decoration: none !important;
+    color: ${colors.void};
   }
 `;
 

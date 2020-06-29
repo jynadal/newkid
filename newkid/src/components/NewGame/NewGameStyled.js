@@ -16,7 +16,6 @@ const NewGameStyled = styled(NewGame)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none;
     font-size: 20px;
     color: ${colors.white};
     cursor: pointer;
@@ -30,11 +29,16 @@ const NewGameStyled = styled(NewGame)`
   ul {
     margin: 0;
     display: flex;
+  
     
-    img {
-      margin-bottom: 10px;
-      width: 100px;
-    }
+    // img {
+    //   margin-bottom: 10px;
+    //   width: 100px;
+    // }
+  }
+  li {
+    text-decoration: none !important;
+    color: ${colors.void};
   }
 `
 
