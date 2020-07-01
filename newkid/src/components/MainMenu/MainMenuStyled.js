@@ -9,21 +9,24 @@ const MainMenuStyled = styled(MainMenu)`
   line-height: 2;
   text-decoration: none;
   list-style-type: none;
-  
+
   a {
-    color: ${colors.white};
-    font-size: 30px;
+    color: ${colors.orange};
+    font-weight: bold;
+    font-size: 50px;
     text-decoration: underline;
     list-style-type: none;
     
     &:hover {
-      color: ${colors.orange};
+      color: ${colors.white};
     }
   
   }
+
   li {
     text-decoration: none !important;
     color: ${colors.void};
+    
   }
 `;
 

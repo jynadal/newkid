@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const logo = require('./images/logo.svg')
 const logoKid = require('./img/logoKid.png')
 
 const Header = ({ className }) => (

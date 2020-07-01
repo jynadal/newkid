@@ -7,8 +7,8 @@ const NewGameStyled = styled(NewGame)`
   .NewGame__title {
     text-align: center;
     font-weight: 300;
-    font-size: 40px;
-    color: ${colors.white};
+    font-size: 50px;
+    color: ${colors.orange};
   }
 
   .NewGame__link {
@@ -16,8 +16,8 @@ const NewGameStyled = styled(NewGame)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 20px;
-    color: ${colors.white};
+    font-size: 40px;
+    color: ${colors.orange};
     cursor: pointer;
     transition: opacity .3s ease-in-out;
     

@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 import EndGame from './EndGame.js'
-
+import { colors } from '../../styles/variables.js';
 const EndGameStyled = styled(EndGame)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
-  font-size: 30px;
+  color: ${colors.orange};
+  font-weight: bold;
+  font-size: 50px;
   line-height: 1.5;
   
   .youWonImage {
@@ -20,8 +21,9 @@ const EndGameStyled = styled(EndGame)`
   }
   
   .newGameLink {
-    color: #fff;
+    color: ${colors.orange};
     text-decoration: none;
+    font-weight: bold;
     
     &:hover {
       opacity: .7

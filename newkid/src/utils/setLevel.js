@@ -17,8 +17,8 @@ const getBoardSize = (level) => {
     case 'hard':
       return 30
       //45
-    case 'very-hard':
-      return 45
+    // case 'very-hard':
+    //   return 45
       //60
 
     default:

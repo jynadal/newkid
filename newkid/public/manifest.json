@@ -3,9 +3,9 @@
   "name": "Kidilangue Create With React",
   "icons": [
     {
-      "src": "favicon.jpg",
+      "src": "faviconKid.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/jpg"
+      "type": "image/ico"
     },
     {
       "src": "logo192.png",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#01579B",
+  "background_color": "#FF6F00"
 }
